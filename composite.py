@@ -35,14 +35,14 @@ class Folder(FileSystem):
 
 
 def main():
-    readme = File("README.md", 2048)
-    main_py = File("main.py", 5120)
+    readme = File("README.md", 1024)
+    main_py = File("main.py", 1489)
     config = File("config.json", 1024)
 
-    logo = File("logo.png", 40960)
-    icon = File("icon.svg", 3072)
+    logo = File("logo.png", 600613)
+    icon = File("icon.svg", 407)
 
-    report = File("report.pdf", 1048576)
+    report = File("report.pdf", 1505)
     data = File("data.csv", 204800)
 
     src = Folder("src")
